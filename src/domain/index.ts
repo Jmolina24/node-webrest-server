@@ -11,6 +11,8 @@ export * from './use-cases/todo/update-todo'
 export * from './use-cases/todo/delete-todo'
 
 
+export * from './errors/custom.error'
+
 
 
 

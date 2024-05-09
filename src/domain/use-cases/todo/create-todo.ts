@@ -1,6 +1,6 @@
 import { CreateTodoDto } from "../../dtos";
 import { TodoEntity } from "../../entities/todo.entity";
-import { TodoReposotory } from "../../repositories/todo.repository";
+import { TodoRepository } from "../../repositories/todo.repository";
 
 
 export interface CreateTodoUseCase {
@@ -12,7 +12,7 @@ export interface CreateTodoUseCase {
 export class CreateTodo implements CreateTodoUseCase {
 
     constructor(
-        private readonly repository: TodoReposotory,
+        private readonly repository: TodoRepository,
     ) { }
 
 

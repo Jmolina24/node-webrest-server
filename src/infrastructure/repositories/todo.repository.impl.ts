@@ -1,9 +1,9 @@
-import { CreateTodoDto, TodoDatasource, TodoEntity, TodoReposotory, UpdateTodoDto } from "../../domain";
+import { CreateTodoDto, TodoDatasource, TodoEntity, TodoRepository, UpdateTodoDto } from "../../domain";
 
 
 
 
-export class TodoRepositiryImpl implements TodoReposotory {
+export class TodoRepositiryImpl implements TodoRepository {
 
 
     constructor(

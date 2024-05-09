@@ -1,6 +1,6 @@
 import { UpdateTodoDto } from "../../dtos";
 import { TodoEntity } from "../../entities/todo.entity";
-import { TodoReposotory } from "../../repositories/todo.repository";
+import { TodoRepository } from "../../repositories/todo.repository";
 
 
 export interface DeleteTodoUseCase {
@@ -12,7 +12,7 @@ export interface DeleteTodoUseCase {
 export class DeleteTodo implements DeleteTodoUseCase {
 
     constructor(
-        private readonly repository: TodoReposotory,
+        private readonly repository: TodoRepository,
     ) { }
 
 
